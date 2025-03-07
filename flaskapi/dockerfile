@@ -1,0 +1,8 @@
+FROM python
+WORKDIR /fastapi
+RUN pip install --upgrade pip
+RUN pip install flask
+RUN pip install pandas
+COPY . .
+ENV FLASK_APP=app
+CMD ["python","main.py"]

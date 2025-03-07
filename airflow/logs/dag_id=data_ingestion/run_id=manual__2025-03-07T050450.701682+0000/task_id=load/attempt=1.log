@@ -1,0 +1,47 @@
+[2025-03-07T05:05:51.595+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-07T05:05:51.645+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_ingestion.load manual__2025-03-07T05:04:50.701682+00:00 [queued]>
+[2025-03-07T05:05:51.670+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_ingestion.load manual__2025-03-07T05:04:50.701682+00:00 [queued]>
+[2025-03-07T05:05:51.670+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-07T05:05:51.748+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): load> on 2025-03-07 05:04:50.701682+00:00
+[2025-03-07T05:05:51.813+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1942) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-07T05:05:51.803+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'data_ingestion', 'load', 'manual__2025-03-07T05:04:50.701682+00:00', '--job-id', '186', '--raw', '--subdir', 'DAGS_FOLDER/data_ingestion.py', '--cfg-path', '/tmp/tmp0vd9b2gd']
+[2025-03-07T05:05:51.823+0000] {standard_task_runner.py:105} INFO - Job 186: Subtask load
+[2025-03-07T05:05:51.823+0000] {standard_task_runner.py:72} INFO - Started process 1952 to run task
+[2025-03-07T05:05:52.104+0000] {task_command.py:467} INFO - Running <TaskInstance: data_ingestion.load manual__2025-03-07T05:04:50.701682+00:00 [running]> on host b50ded44baec
+[2025-03-07T05:05:53.097+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_ingestion' AIRFLOW_CTX_TASK_ID='load' AIRFLOW_CTX_EXECUTION_DATE='2025-03-07T05:04:50.701682+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-07T05:04:50.701682+00:00'
+[2025-03-07T05:05:53.100+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-07T05:05:53.375+0000] {logging_mixin.py:190} INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7043 entries, 0 to 7042
+Data columns (total 21 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   customerID        7043 non-null   object 
+ 1   gender            7043 non-null   object 
+ 2   SeniorCitizen     7043 non-null   int64  
+ 3   Partner           7043 non-null   object 
+ 4   Dependents        7043 non-null   object 
+ 5   tenure            7043 non-null   int64  
+ 6   PhoneService      7043 non-null   object 
+ 7   MultipleLines     7043 non-null   object 
+ 8   InternetService   7043 non-null   object 
+ 9   OnlineSecurity    7043 non-null   object 
+ 10  OnlineBackup      7043 non-null   object 
+ 11  DeviceProtection  7043 non-null   object 
+ 12  TechSupport       7043 non-null   object 
+ 13  StreamingTV       7043 non-null   object 
+ 14  StreamingMovies   7043 non-null   object 
+ 15  Contract          7043 non-null   object 
+ 16  PaperlessBilling  7043 non-null   object 
+ 17  PaymentMethod     7043 non-null   object 
+ 18  MonthlyCharges    7043 non-null   float64
+ 19  TotalCharges      7043 non-null   object 
+ 20  Churn             7043 non-null   object 
+dtypes: float64(1), int64(2), object(18)
+memory usage: 1.1+ MB
+[2025-03-07T05:05:53.376+0000] {logging_mixin.py:190} INFO - None
+[2025-03-07T05:05:53.509+0000] {python.py:240} INFO - Done. Returned value was: file uploaded
+[2025-03-07T05:05:53.590+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-07T05:05:53.591+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=data_ingestion, task_id=load, run_id=manual__2025-03-07T05:04:50.701682+00:00, execution_date=20250307T050450, start_date=20250307T050551, end_date=20250307T050553
+[2025-03-07T05:05:53.758+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-07T05:05:53.790+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-07T05:05:53.794+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

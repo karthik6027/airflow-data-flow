@@ -1,0 +1,34 @@
+version: '3.8'
+
+services:
+  airflow:
+    build: .
+    volumes:
+      - ./airflow:/opt/airflow
+    # - ./data:/opt/data
+      - data:/opt/data
+    ports:
+      - "8080:8080"
+    command: airflow standalone
+
+  flask:
+    build: ./flaskapi
+    ports:
+      - 5000:5000
+    volumes:
+      - .:/flaskapi/main
+      - data:/opt/data
+     # - ./data:/opt/data
+      
+
+volumes:
+  data:
+    driver: local
+    driver_opts:
+      o: bind
+      type: none
+      device: ./data
+      
+  
+    
+
