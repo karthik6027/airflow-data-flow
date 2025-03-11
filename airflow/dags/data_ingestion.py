@@ -3,7 +3,6 @@ from datetime import datetime
 import pandas as pd
 import os
 import requests
-from io import StringIO
 
 from airflow import DAG
 from airflow.decorators import task
@@ -47,7 +46,7 @@ def load(df1, df2):
     df1_new = pd.DataFrame(data1)    
     df_combined = pd.concat([df1_new, df2_new], ignore_index=True)
     print(df_combined.info())
-    df_combined.to_csv("output.csv", index=True)
+    df_combined.to_csv("/opt/data/telco-customer-churn-mul-sources.csv",index=True)
     
     return "file uploaded"
 

@@ -7,3 +7,12 @@ RUN apt-get update && \
 
 USER airflow
 
+RUN pip install numpy
+RUN pip install pandas 
+RUN pip install great_expectations
+
+
+#RUN pip install -r requirements.txt
+
+
+
