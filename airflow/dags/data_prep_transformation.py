@@ -6,6 +6,7 @@ import great_expectations as ge
 
 from airflow import DAG
 from airflow.decorators import task
+from airflow.operators.bash import BashOperator
 
 # File Paths
 DATA_PATH = '/opt/data/telco-customer-churn-mul-sources.csv'
@@ -65,7 +66,11 @@ def data_validation():
 
     print("Data Validation Completed. Report saved at:")
 
-
+@task
+def data_cleaning():
+    task1 = BashOperator(task_id='data-cleaning',
+                     bash_command='python '+'/opt/airflow/dags/data_cleaning.py',
+                     )
 
 with DAG(
     dag_id="data_prep_transformation",
@@ -75,4 +80,4 @@ with DAG(
     tags=["Data Preparation and transformation"],
     description= "Data Preparation and transformation"
 ):
-    data_validation()
+    data_validation()  >> data_cleaning()

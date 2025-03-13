@@ -1,0 +1,1165 @@
+[2025-03-13T04:31:02.499+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-03-13T04:31:02.511+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-13T04:31:02.513+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-13T04:31:02.517+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T04:31:02.736+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T04:31:20.124+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  16.87s          2025-03-13T04:31:20                      10
+/opt/airflow/dags/data_ingestion.py                                     0           0                                                            0
+================================================================================
+[2025-03-13T04:31:59.984+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  9.58s           2025-03-13T04:31:59                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.61s           2025-03-13T04:31:23                      10
+================================================================================
+[2025-03-13T04:32:33.955+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_ingestion.py                                     1           0  3.55s           2025-03-13T04:32:05                      10
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.53s           2025-03-13T04:32:33                      10
+================================================================================
+[2025-03-13T04:33:12.178+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  7.93s           2025-03-13T04:33:12                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.81s           2025-03-13T04:32:35                      10
+================================================================================
+[2025-03-13T04:33:46.094+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.42s           2025-03-13T04:33:46                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.82s           2025-03-13T04:33:14                      10
+================================================================================
+[2025-03-13T04:34:24.609+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  8.46s           2025-03-13T04:34:24                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.81s           2025-03-13T04:33:48                      10
+================================================================================
+[2025-03-13T04:34:58.202+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.02s           2025-03-13T04:34:58                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.31s           2025-03-13T04:34:27                      10
+================================================================================
+[2025-03-13T04:35:32.038+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.42s           2025-03-13T04:35:32                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.61s           2025-03-13T04:35:00                      10
+================================================================================
+[2025-03-13T04:36:09.356+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  7.02s           2025-03-13T04:36:09                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T04:35:34                      10
+================================================================================
+[2025-03-13T04:36:10.802+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T04:36:10.956+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T04:36:48.144+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  8.24s           2025-03-13T04:36:48                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.22s           2025-03-13T04:36:12                      10
+================================================================================
+[2025-03-13T04:38:22.104+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-03-13T04:38:22.107+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-13T04:38:22.109+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-13T04:38:22.113+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T04:38:22.248+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T04:38:46.982+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  23.78s          2025-03-13T04:38:46                      10
+/opt/airflow/dags/data_ingestion.py                                     0           0                                                            0
+================================================================================
+[2025-03-13T04:39:47.802+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           0           1  30.32s          2025-03-13T04:39:47                       3
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.64s           2025-03-13T04:38:50                      10
+================================================================================
+[2025-03-13T04:40:50.729+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           0           1  32.28s          2025-03-13T04:40:50                       5
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.52s           2025-03-13T04:39:51                      10
+================================================================================
+[2025-03-13T04:41:22.793+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           0           1  32.28s          2025-03-13T04:40:50                       5
+/opt/airflow/dags/data_ingestion.py                                     1           0  24.63s          2025-03-13T04:41:22                      10
+================================================================================
+[2025-03-13T04:41:53.864+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  7.85s           2025-03-13T04:41:32                      32
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.81s           2025-03-13T04:41:53                      10
+================================================================================
+[2025-03-13T04:42:24.512+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.52s           2025-03-13T04:42:05                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T04:42:24                      10
+================================================================================
+[2025-03-13T04:42:55.509+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.20s           2025-03-13T04:42:39                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.82s           2025-03-13T04:42:55                      10
+================================================================================
+[2025-03-13T04:43:22.642+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T04:43:22.653+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T04:43:25.512+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.61s           2025-03-13T04:43:13                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.82s           2025-03-13T04:42:55                      10
+================================================================================
+[2025-03-13T04:43:55.623+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.71s           2025-03-13T04:43:46                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.61s           2025-03-13T04:43:27                      10
+================================================================================
+[2025-03-13T04:44:26.165+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.71s           2025-03-13T04:44:18                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.50s           2025-03-13T04:43:57                      10
+================================================================================
+[2025-03-13T04:44:56.746+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  4.02s           2025-03-13T04:44:53                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.91s           2025-03-13T04:44:29                      10
+================================================================================
+[2025-03-13T04:45:27.527+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.32s           2025-03-13T04:45:26                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T04:45:00                      10
+================================================================================
+[2025-03-13T04:45:59.289+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.71s           2025-03-13T04:45:59                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T04:45:31                      10
+================================================================================
+[2025-03-13T04:46:32.377+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.91s           2025-03-13T04:46:32                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.50s           2025-03-13T04:46:01                      10
+================================================================================
+[2025-03-13T04:47:02.379+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.91s           2025-03-13T04:46:32                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.50s           2025-03-13T04:46:33                      10
+================================================================================
+[2025-03-13T04:47:32.448+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  5.02s           2025-03-13T04:47:07                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.50s           2025-03-13T04:47:09                      10
+================================================================================
+[2025-03-13T04:48:02.683+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.21s           2025-03-13T04:47:41                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.61s           2025-03-13T04:47:42                      10
+================================================================================
+[2025-03-13T04:48:22.738+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T04:48:22.767+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T04:48:33.665+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  4.93s           2025-03-13T04:48:16                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.81s           2025-03-13T04:48:18                      10
+================================================================================
+[2025-03-13T04:49:04.171+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.71s           2025-03-13T04:48:49                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.61s           2025-03-13T04:48:50                      10
+================================================================================
+[2025-03-13T04:49:34.376+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.81s           2025-03-13T04:49:22                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T04:49:23                      10
+================================================================================
+[2025-03-13T04:50:05.282+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.52s           2025-03-13T04:49:55                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T04:49:56                      10
+================================================================================
+[2025-03-13T04:50:36.305+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.01s           2025-03-13T04:50:29                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.60s           2025-03-13T04:50:30                      10
+================================================================================
+[2025-03-13T04:51:06.868+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.81s           2025-03-13T04:51:02                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T04:51:03                      10
+================================================================================
+[2025-03-13T04:51:37.494+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.52s           2025-03-13T04:51:34                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T04:51:36                      10
+================================================================================
+[2025-03-13T04:52:07.610+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.72s           2025-03-13T04:52:07                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T04:51:36                      10
+================================================================================
+[2025-03-13T04:52:40.602+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.81s           2025-03-13T04:52:40                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.50s           2025-03-13T04:52:09                      10
+================================================================================
+[2025-03-13T04:53:13.513+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.72s           2025-03-13T04:53:13                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T04:52:42                      10
+================================================================================
+[2025-03-13T04:53:22.806+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T04:53:22.847+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T04:53:46.408+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.71s           2025-03-13T04:53:46                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T04:53:15                      10
+================================================================================
+[2025-03-13T04:54:19.312+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.71s           2025-03-13T04:54:19                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.50s           2025-03-13T04:53:48                      10
+================================================================================
+[2025-03-13T04:54:52.036+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.51s           2025-03-13T04:54:52                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.50s           2025-03-13T04:54:20                      10
+================================================================================
+[2025-03-13T04:55:24.915+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.71s           2025-03-13T04:55:24                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.50s           2025-03-13T04:54:53                      10
+================================================================================
+[2025-03-13T04:55:57.617+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.51s           2025-03-13T04:55:57                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.50s           2025-03-13T04:55:26                      10
+================================================================================
+[2025-03-13T04:56:32.723+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  4.92s           2025-03-13T04:56:32                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.50s           2025-03-13T04:55:59                      10
+================================================================================
+[2025-03-13T04:57:06.629+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.82s           2025-03-13T04:57:06                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.81s           2025-03-13T04:56:34                      10
+================================================================================
+[2025-03-13T04:57:39.454+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.61s           2025-03-13T04:57:39                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.91s           2025-03-13T04:57:08                      10
+================================================================================
+[2025-03-13T04:58:13.120+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.63s           2025-03-13T04:58:13                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T04:57:41                      10
+================================================================================
+[2025-03-13T04:58:22.914+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T04:58:22.937+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T04:58:46.735+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.41s           2025-03-13T04:58:46                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T04:58:14                      10
+================================================================================
+[2025-03-13T04:59:19.985+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.03s           2025-03-13T04:59:19                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.21s           2025-03-13T04:58:49                      10
+================================================================================
+[2025-03-13T04:59:50.112+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.52s           2025-03-13T04:59:33                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.81s           2025-03-13T04:59:21                      10
+================================================================================
+[2025-03-13T05:00:21.035+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.62s           2025-03-13T05:00:06                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T04:59:52                      10
+================================================================================
+[2025-03-13T05:00:51.255+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.91s           2025-03-13T05:00:39                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.50s           2025-03-13T05:00:23                      10
+================================================================================
+[2025-03-13T05:01:21.692+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.51s           2025-03-13T05:01:12                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:00:54                      10
+================================================================================
+[2025-03-13T05:01:52.671+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.92s           2025-03-13T05:01:45                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.61s           2025-03-13T05:01:25                      10
+================================================================================
+[2025-03-13T05:02:23.148+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  4.02s           2025-03-13T05:02:13                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T05:01:56                      10
+================================================================================
+[2025-03-13T05:02:56.866+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.51s           2025-03-13T05:02:56                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T05:02:26                      10
+================================================================================
+[2025-03-13T05:03:23.565+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T05:03:23.588+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T05:03:27.218+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.42s           2025-03-13T05:03:13                      32
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.61s           2025-03-13T05:02:57                      10
+================================================================================
+[2025-03-13T05:03:57.253+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.71s           2025-03-13T05:03:47                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:03:28                      10
+================================================================================
+[2025-03-13T05:04:29.368+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  4.42s           2025-03-13T05:04:29                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T05:03:59                      10
+================================================================================
+[2025-03-13T05:05:04.206+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  4.72s           2025-03-13T05:05:04                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.11s           2025-03-13T05:04:31                      10
+================================================================================
+[2025-03-13T05:05:49.374+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  5.30s           2025-03-13T05:05:49                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.61s           2025-03-13T05:05:05                      10
+================================================================================
+[2025-03-13T05:06:23.955+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.82s           2025-03-13T05:06:23                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:05:51                      10
+================================================================================
+[2025-03-13T05:06:58.570+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  4.02s           2025-03-13T05:06:58                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:06:24                      10
+================================================================================
+[2025-03-13T05:07:33.098+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  4.42s           2025-03-13T05:07:33                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.61s           2025-03-13T05:06:59                      10
+================================================================================
+[2025-03-13T05:08:05.949+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.61s           2025-03-13T05:08:05                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.61s           2025-03-13T05:07:34                      10
+================================================================================
+[2025-03-13T05:08:23.651+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T05:08:23.666+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T05:08:39.542+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.41s           2025-03-13T05:08:39                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:08:07                      10
+================================================================================
+[2025-03-13T05:09:20.269+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  10.35s          2025-03-13T05:09:20                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.21s           2025-03-13T05:08:42                      10
+================================================================================
+[2025-03-13T05:09:58.286+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  7.67s           2025-03-13T05:09:58                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.81s           2025-03-13T05:09:23                      10
+================================================================================
+[2025-03-13T05:10:35.326+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  6.83s           2025-03-13T05:10:35                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.83s           2025-03-13T05:10:00                      10
+================================================================================
+[2025-03-13T05:11:15.462+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  9.74s           2025-03-13T05:11:15                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.92s           2025-03-13T05:10:38                      10
+================================================================================
+[2025-03-13T05:12:42.466+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-03-13T05:12:42.467+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-13T05:12:42.468+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-13T05:12:42.469+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T05:12:42.511+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T05:13:03.117+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  19.85s          2025-03-13T05:13:03                      10
+/opt/airflow/dags/data_ingestion.py                                     0           0                                                            0
+================================================================================
+[2025-03-13T05:13:40.546+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  7.12s           2025-03-13T05:13:40                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.72s           2025-03-13T05:13:05                      10
+================================================================================
+[2025-03-13T05:14:13.681+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.91s           2025-03-13T05:14:13                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:13:42                      10
+================================================================================
+[2025-03-13T05:14:46.269+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.42s           2025-03-13T05:14:46                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T05:14:15                      10
+================================================================================
+[2025-03-13T05:15:19.042+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.61s           2025-03-13T05:15:19                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T05:14:47                      10
+================================================================================
+[2025-03-13T05:15:51.737+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.52s           2025-03-13T05:15:51                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T05:15:20                      10
+================================================================================
+[2025-03-13T05:16:31.898+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  9.88s           2025-03-13T05:16:31                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.51s           2025-03-13T05:15:53                      10
+================================================================================
+[2025-03-13T05:17:10.166+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  7.75s           2025-03-13T05:17:10                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.93s           2025-03-13T05:16:34                      10
+================================================================================
+[2025-03-13T05:17:45.011+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  4.62s           2025-03-13T05:17:45                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:17:12                      10
+================================================================================
+[2025-03-13T05:17:46.304+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T05:17:46.327+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T05:18:18.051+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.71s           2025-03-13T05:18:18                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:17:47                      10
+================================================================================
+[2025-03-13T05:32:16.790+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  747.71s         2025-03-13T05:32:16                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.93s           2025-03-13T05:18:20                      10
+================================================================================
+[2025-03-13T05:32:18.303+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T05:32:18.330+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T05:32:59.944+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  13.00s          2025-03-13T05:32:59                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.43s           2025-03-13T05:32:19                      10
+================================================================================
+[2025-03-13T05:33:56.764+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  26.63s          2025-03-13T05:33:56                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  2.31s           2025-03-13T05:33:04                      10
+================================================================================
+[2025-03-13T05:34:54.258+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  15.84s          2025-03-13T05:34:54                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  2.31s           2025-03-13T05:33:04                      10
+================================================================================
+[2025-03-13T05:35:29.895+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  5.34s           2025-03-13T05:35:29                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.93s           2025-03-13T05:34:56                      10
+================================================================================
+[2025-03-13T05:36:09.642+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  9.33s           2025-03-13T05:36:09                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.91s           2025-03-13T05:35:32                      10
+================================================================================
+[2025-03-13T05:36:50.047+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  9.85s           2025-03-13T05:36:50                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.04s           2025-03-13T05:36:12                      10
+================================================================================
+[2025-03-13T05:37:18.713+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T05:37:18.781+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T05:37:25.046+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  4.95s           2025-03-13T05:37:25                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.81s           2025-03-13T05:36:52                      10
+================================================================================
+[2025-03-13T05:38:22.035+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  6.80s           2025-03-13T05:38:22                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.01s           2025-03-13T05:37:27                      10
+================================================================================
+[2025-03-13T05:38:55.370+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.83s           2025-03-13T05:38:55                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.91s           2025-03-13T05:38:24                      10
+================================================================================
+[2025-03-13T05:39:29.635+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.72s           2025-03-13T05:39:29                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:38:56                      10
+================================================================================
+[2025-03-13T05:40:02.658+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.82s           2025-03-13T05:40:02                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.62s           2025-03-13T05:39:31                      10
+================================================================================
+[2025-03-13T05:40:36.390+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.33s           2025-03-13T05:40:36                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:40:04                      10
+================================================================================
+[2025-03-13T05:41:10.655+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.82s           2025-03-13T05:41:10                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:40:37                      10
+================================================================================
+[2025-03-13T05:41:44.371+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.62s           2025-03-13T05:41:44                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.81s           2025-03-13T05:41:12                      10
+================================================================================
+[2025-03-13T05:42:17.632+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.92s           2025-03-13T05:42:17                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.81s           2025-03-13T05:41:46                      10
+================================================================================
+[2025-03-13T05:42:18.806+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T05:42:18.822+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T05:42:51.025+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.02s           2025-03-13T05:42:51                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.61s           2025-03-13T05:42:19                      10
+================================================================================
+[2025-03-13T05:43:24.328+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.91s           2025-03-13T05:43:24                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:42:52                      10
+================================================================================
+[2025-03-13T05:43:57.370+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  2.72s           2025-03-13T05:43:57                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.61s           2025-03-13T05:43:26                      10
+================================================================================
+[2025-03-13T05:44:31.099+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.42s           2025-03-13T05:44:31                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:43:59                      10
+================================================================================
+[2025-03-13T05:45:05.017+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.42s           2025-03-13T05:45:05                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.82s           2025-03-13T05:44:33                      10
+================================================================================
+[2025-03-13T05:45:36.245+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  6.43s           2025-03-13T05:45:36                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:45:07                      10
+================================================================================
+[2025-03-13T05:46:53.662+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  16.23s          2025-03-13T05:46:53                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:45:38                      10
+================================================================================
+[2025-03-13T05:47:19.463+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T05:47:19.507+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T05:47:29.822+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  5.33s           2025-03-13T05:47:29                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.31s           2025-03-13T05:47:10                      10
+================================================================================
+[2025-03-13T05:48:07.552+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  6.94s           2025-03-13T05:48:07                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.31s           2025-03-13T05:47:57                      10
+================================================================================
+[2025-03-13T05:48:41.519+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.02s           2025-03-13T05:48:41                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:48:28                      10
+================================================================================
+[2025-03-13T05:49:14.917+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.01s           2025-03-13T05:49:14                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:49:00                      10
+================================================================================
+[2025-03-13T05:49:45.082+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  8.34s           2025-03-13T05:49:35                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.91s           2025-03-13T05:49:37                      10
+================================================================================
+[2025-03-13T05:50:15.336+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  8.24s           2025-03-13T05:50:15                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.91s           2025-03-13T05:49:37                      10
+================================================================================
+[2025-03-13T05:50:49.279+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.62s           2025-03-13T05:50:49                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.91s           2025-03-13T05:50:17                      10
+================================================================================
+[2025-03-13T05:51:23.261+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.52s           2025-03-13T05:51:23                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:50:51                      10
+================================================================================
+[2025-03-13T05:51:53.658+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  3.82s           2025-03-13T05:51:40                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.71s           2025-03-13T05:51:25                      10
+================================================================================
+[2025-03-13T05:52:19.566+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T05:52:19.633+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T05:52:24.844+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  5.03s           2025-03-13T05:52:17                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  0.74s           2025-03-13T05:51:56                      10
+================================================================================
+[2025-03-13T05:53:01.233+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  13.76s          2025-03-13T05:53:01                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.22s           2025-03-13T05:52:28                      10
+================================================================================
+[2025-03-13T05:53:39.548+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  8.25s           2025-03-13T05:53:39                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.82s           2025-03-13T05:53:04                      10
+================================================================================
+[2025-03-13T05:54:09.560+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  8.25s           2025-03-13T05:53:39                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.64s           2025-03-13T05:53:42                      10
+================================================================================
+[2025-03-13T05:54:40.143+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  10.42s          2025-03-13T05:54:20                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  2.25s           2025-03-13T05:54:24                      10
+================================================================================
+[2025-03-13T05:55:11.229+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  12.15s          2025-03-13T05:55:02                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.12s           2025-03-13T05:55:05                      10
+================================================================================
+[2025-03-13T05:55:41.318+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  8.03s           2025-03-13T05:55:41                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.12s           2025-03-13T05:55:05                      10
+================================================================================
+[2025-03-13T05:56:11.340+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  8.03s           2025-03-13T05:55:41                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.31s           2025-03-13T05:55:44                      10
+================================================================================
+[2025-03-13T05:56:42.748+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  11.56s          2025-03-13T05:56:23                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  1.03s           2025-03-13T05:56:25                      10
+================================================================================
+[2025-03-13T05:57:14.873+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  10.46s          2025-03-13T05:57:03                      10
+/opt/airflow/dags/data_ingestion.py                                     1           0  3.17s           2025-03-13T05:57:08                      10
+================================================================================
+[2025-03-13T06:19:01.308+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T06:19:01.455+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T06:19:33.923+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           0           1  31.60s          2025-03-13T06:19:33                       3
+/opt/airflow/dags/data_ingestion.py                                     1           0  3.17s           2025-03-13T05:57:08                      10
+================================================================================
+[2025-03-13T06:20:10.554+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  6.05s           2025-03-13T06:20:10                      32
+/opt/airflow/dags/data_ingestion.py                                     1           0  2.64s           2025-03-13T06:19:38                      10
+================================================================================
+[2025-03-13T06:21:19.752+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2025-03-13T06:21:22.441+0000] {manager.py:483} INFO - Processing files using up to 1 processes at a time 
+[2025-03-13T06:21:22.446+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2025-03-13T06:21:22.447+0000] {manager.py:485} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2025-03-13T06:21:22.449+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-03-13T06:21:22.510+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-03-13T06:21:33.277+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                      PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/data_prep_transformation.py                           1           0  10.05s          2025-03-13T06:21:33                      10
+/opt/airflow/dags/data_ingestion.py                                     0           0                                                            0
+================================================================================
