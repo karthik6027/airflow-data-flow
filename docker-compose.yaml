@@ -28,7 +28,6 @@ volumes:
       o: bind
       type: none
       device: ./data
-      
   
     
 

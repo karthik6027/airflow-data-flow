@@ -16,6 +16,8 @@ RUN pip install scikit-learn
 RUN pip install plotly
 
 
+
+
 #RUN pip install -r requirements.txt
 
 

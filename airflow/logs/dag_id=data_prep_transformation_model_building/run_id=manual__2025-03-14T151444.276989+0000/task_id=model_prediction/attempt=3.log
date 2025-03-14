@@ -1,0 +1,164 @@
+[2025-03-14T15:18:58.594+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-14T15:18:58.654+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_prep_transformation_model_building.model_prediction manual__2025-03-14T15:14:44.276989+00:00 [queued]>
+[2025-03-14T15:18:58.693+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_prep_transformation_model_building.model_prediction manual__2025-03-14T15:14:44.276989+00:00 [queued]>
+[2025-03-14T15:18:58.694+0000] {taskinstance.py:2867} INFO - Starting attempt 3 of 3
+[2025-03-14T15:18:58.797+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): model_prediction> on 2025-03-14 15:14:44.276989+00:00
+[2025-03-14T15:18:58.836+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'data_prep_transformation_model_building', 'model_prediction', 'manual__2025-03-14T15:14:44.276989+00:00', '--job-id', '253', '--raw', '--subdir', 'DAGS_FOLDER/data_prep_transformation_model_building.py', '--cfg-path', '/tmp/tmp9ofeu5gg']
+[2025-03-14T15:18:58.845+0000] {standard_task_runner.py:105} INFO - Job 253: Subtask model_prediction
+[2025-03-14T15:18:58.845+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1414) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-14T15:18:58.847+0000] {standard_task_runner.py:72} INFO - Started process 1432 to run task
+[2025-03-14T15:18:59.108+0000] {task_command.py:467} INFO - Running <TaskInstance: data_prep_transformation_model_building.model_prediction manual__2025-03-14T15:14:44.276989+00:00 [running]> on host 0bbddc3bb474
+[2025-03-14T15:18:59.402+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_prep_transformation_model_building' AIRFLOW_CTX_TASK_ID='model_prediction' AIRFLOW_CTX_EXECUTION_DATE='2025-03-14T15:14:44.276989+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-14T15:14:44.276989+00:00'
+[2025-03-14T15:18:59.405+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-14T15:18:59.410+0000] {logging_mixin.py:190} INFO - Engine(***)
+[2025-03-14T15:18:59.950+0000] {logging_mixin.py:190} INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7043 entries, 0 to 7042
+Data columns (total 22 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   Unnamed: 0        7043 non-null   float64
+ 1   customerID        7043 non-null   float64
+ 2   gender            7043 non-null   float64
+ 3   SeniorCitizen     7043 non-null   float64
+ 4   Partner           7043 non-null   float64
+ 5   Dependents        7043 non-null   float64
+ 6   tenure            7043 non-null   float64
+ 7   PhoneService      7043 non-null   float64
+ 8   MultipleLines     7043 non-null   float64
+ 9   InternetService   7043 non-null   float64
+ 10  OnlineSecurity    7043 non-null   float64
+ 11  OnlineBackup      7043 non-null   float64
+ 12  DeviceProtection  7043 non-null   float64
+ 13  TechSupport       7043 non-null   float64
+ 14  StreamingTV       7043 non-null   float64
+ 15  StreamingMovies   7043 non-null   float64
+ 16  Contract          7043 non-null   float64
+ 17  PaperlessBilling  7043 non-null   float64
+ 18  PaymentMethod     7043 non-null   float64
+ 19  MonthlyCharges    7043 non-null   float64
+ 20  TotalCharges      7043 non-null   float64
+ 21  Churn             7043 non-null   float64
+dtypes: float64(22)
+memory usage: 1.2 MB
+[2025-03-14T15:18:59.951+0000] {logging_mixin.py:190} INFO - None
+[2025-03-14T15:18:59.979+0000] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 266, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation_model_building.py", line 198, in model_prediction
+    rf_model.fit(X_train, y_train)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 419, in fit
+    y, expanded_class_weight = self._validate_y_class_weight(y)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 831, in _validate_y_class_weight
+    check_classification_targets(y)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/multiclass.py", line 222, in check_classification_targets
+    raise ValueError(
+ValueError: Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+[2025-03-14T15:19:00.047+0000] {taskinstance.py:1226} INFO - Marking task as FAILED. dag_id=data_prep_transformation_model_building, task_id=model_prediction, run_id=manual__2025-03-14T15:14:44.276989+00:00, execution_date=20250314T151444, start_date=20250314T151858, end_date=20250314T151900
+[2025-03-14T15:19:00.276+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-14T15:19:00.277+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 253 for task model_prediction (Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.; 1432)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 266, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation_model_building.py", line 198, in model_prediction
+    rf_model.fit(X_train, y_train)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 419, in fit
+    y, expanded_class_weight = self._validate_y_class_weight(y)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 831, in _validate_y_class_weight
+    check_classification_targets(y)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/multiclass.py", line 222, in check_classification_targets
+    raise ValueError(
+ValueError: Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+[2025-03-14T15:19:00.317+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-03-14T15:19:00.365+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-14T15:19:00.369+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

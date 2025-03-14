@@ -1,0 +1,205 @@
+[2025-03-14T13:31:02.903+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-14T13:31:02.931+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_prep_transformation_model_building.data_pre_processing manual__2025-03-14T13:30:27.748569+00:00 [queued]>
+[2025-03-14T13:31:02.950+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_prep_transformation_model_building.data_pre_processing manual__2025-03-14T13:30:27.748569+00:00 [queued]>
+[2025-03-14T13:31:02.951+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-14T13:31:02.992+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): data_pre_processing> on 2025-03-14 13:30:27.748569+00:00
+[2025-03-14T13:31:03.026+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=656) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-14T13:31:03.028+0000] {standard_task_runner.py:72} INFO - Started process 674 to run task
+[2025-03-14T13:31:03.027+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'data_prep_transformation_model_building', 'data_pre_processing', 'manual__2025-03-14T13:30:27.748569+00:00', '--job-id', '236', '--raw', '--subdir', 'DAGS_FOLDER/data_prep_transformation.py', '--cfg-path', '/tmp/tmpiiosqlk0']
+[2025-03-14T13:31:03.031+0000] {standard_task_runner.py:105} INFO - Job 236: Subtask data_pre_processing
+[2025-03-14T13:31:03.271+0000] {task_command.py:467} INFO - Running <TaskInstance: data_prep_transformation_model_building.data_pre_processing manual__2025-03-14T13:30:27.748569+00:00 [running]> on host 9bd0184034c4
+[2025-03-14T13:31:03.541+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_prep_transformation_model_building' AIRFLOW_CTX_TASK_ID='data_pre_processing' AIRFLOW_CTX_EXECUTION_DATE='2025-03-14T13:30:27.748569+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-14T13:30:27.748569+00:00'
+[2025-03-14T13:31:03.543+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-14T13:31:03.754+0000] {logging_mixin.py:190} INFO - Initial Data Snapshot:
+[2025-03-14T13:31:03.855+0000] {logging_mixin.py:190} INFO -    Unnamed: 0  customerID  gender  ...  MonthlyCharges TotalCharges Churn
+0           0  7590-VHVEG  Female  ...           29.85        29.85    No
+1           1  5575-GNVDE    Male  ...           56.95       1889.5    No
+2           2  3668-QPYBK    Male  ...           53.85       108.15   Yes
+3           3  7795-CFOCW    Male  ...           42.30      1840.75    No
+4           4  9237-HQITU  Female  ...           70.70       151.65   Yes
+
+[5 rows x 22 columns]
+[2025-03-14T13:31:03.856+0000] {logging_mixin.py:190} INFO - 
+Data Information:
+[2025-03-14T13:31:03.932+0000] {logging_mixin.py:190} INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7043 entries, 0 to 7042
+Data columns (total 22 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   Unnamed: 0        7043 non-null   int64  
+ 1   customerID        7043 non-null   object 
+ 2   gender            7043 non-null   object 
+ 3   SeniorCitizen     7043 non-null   int64  
+ 4   Partner           7043 non-null   object 
+ 5   Dependents        7043 non-null   object 
+ 6   tenure            7043 non-null   int64  
+ 7   PhoneService      7043 non-null   object 
+ 8   MultipleLines     7043 non-null   object 
+ 9   InternetService   7043 non-null   object 
+ 10  OnlineSecurity    7043 non-null   object 
+ 11  OnlineBackup      7043 non-null   object 
+ 12  DeviceProtection  7043 non-null   object 
+ 13  TechSupport       7043 non-null   object 
+ 14  StreamingTV       7043 non-null   object 
+ 15  StreamingMovies   7043 non-null   object 
+ 16  Contract          7043 non-null   object 
+ 17  PaperlessBilling  7043 non-null   object 
+ 18  PaymentMethod     7043 non-null   object 
+ 19  MonthlyCharges    7043 non-null   float64
+ 20  TotalCharges      7043 non-null   object 
+ 21  Churn             7043 non-null   object 
+dtypes: float64(1), int64(3), object(18)
+memory usage: 1.2+ MB
+[2025-03-14T13:31:03.933+0000] {logging_mixin.py:190} INFO - None
+[2025-03-14T13:31:03.949+0000] {logging_mixin.py:190} INFO - 
+Missing values per column:
+[2025-03-14T13:31:03.954+0000] {logging_mixin.py:190} INFO - Unnamed: 0          0
+customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+dtype: int64
+[2025-03-14T13:31:04.264+0000] {category.py:224} INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[2025-03-14T13:31:04.294+0000] {category.py:224} INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[2025-03-14T13:31:06.122+0000] {taskinstance.py:3313} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 266, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 152, in data_pre_processing
+    df.to_csv('d/opt/data/cleaned_customer_churn.csv', index=False)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/csvs.py", line 247, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'd/opt/data'
+[2025-03-14T13:31:06.205+0000] {taskinstance.py:1226} INFO - Marking task as FAILED. dag_id=data_prep_transformation_model_building, task_id=data_pre_processing, run_id=manual__2025-03-14T13:30:27.748569+00:00, execution_date=20250314T133027, start_date=20250314T133102, end_date=20250314T133106
+[2025-03-14T13:31:06.346+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-14T13:31:06.348+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 236 for task data_pre_processing (Cannot save file into a non-existent directory: 'd/opt/data'; 674)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3006, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 274, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3161, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3185, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 768, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 734, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/decorators/base.py", line 266, in execute
+    return_value = super().execute(context)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 238, in execute
+    return_value = self.execute_callable()
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/python.py", line 256, in execute_callable
+    return runner.run(*self.op_args, **self.op_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 152, in data_pre_processing
+    df.to_csv('d/opt/data/cleaned_customer_churn.csv', index=False)
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/core/generic.py", line 3902, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/format.py", line 1152, in to_csv
+    csv_formatter.save()
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/formats/csvs.py", line 247, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 739, in get_handle
+    check_parent_directory(str(handle))
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 604, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'd/opt/data'
+[2025-03-14T13:31:06.385+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-03-14T13:31:06.419+0000] {taskinstance.py:3901} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-03-14T13:31:06.421+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

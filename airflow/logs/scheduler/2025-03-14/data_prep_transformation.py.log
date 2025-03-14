@@ -1,0 +1,1052 @@
+[2025-03-14T13:05:45.869+0000] {processor.py:186} INFO - Started process (PID=56) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:05:45.871+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:05:45.877+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:05:45.876+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:05:59.955+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:05:59.944+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:05:59.958+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:06:00.002+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 14.146 seconds
+[2025-03-14T13:06:30.556+0000] {processor.py:186} INFO - Started process (PID=88) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:06:30.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:06:30.563+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:06:30.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:06:33.623+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:06:33.615+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:06:33.625+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:06:33.660+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.121 seconds
+[2025-03-14T13:07:03.985+0000] {processor.py:186} INFO - Started process (PID=100) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:07:03.988+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:07:03.993+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:07:03.992+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:07:08.408+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:07:08.398+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:07:08.411+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:07:08.449+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 4.473 seconds
+[2025-03-14T13:07:38.622+0000] {processor.py:186} INFO - Started process (PID=112) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:07:38.625+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:07:38.626+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:07:38.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:07:41.803+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:07:41.793+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:07:41.806+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:07:41.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.238 seconds
+[2025-03-14T13:08:12.113+0000] {processor.py:186} INFO - Started process (PID=124) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:08:12.114+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:08:12.115+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:08:12.115+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:08:14.894+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:08:14.890+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:08:14.896+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:08:14.924+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 2.816 seconds
+[2025-03-14T13:08:45.143+0000] {processor.py:186} INFO - Started process (PID=136) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:08:45.145+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:08:45.146+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:08:45.146+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:08:48.287+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:08:48.282+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:08:48.289+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:08:48.316+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.178 seconds
+[2025-03-14T13:09:18.666+0000] {processor.py:186} INFO - Started process (PID=148) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:09:18.667+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:09:18.668+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:09:18.668+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:09:21.510+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:09:21.502+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:09:21.512+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:09:21.539+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 2.880 seconds
+[2025-03-14T13:09:44.531+0000] {processor.py:186} INFO - Started process (PID=160) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:09:44.532+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:09:44.534+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:09:44.533+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:09:47.707+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:09:47.703+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from dags.data_preprocessing import pre_processing
+ModuleNotFoundError: No module named 'dags'
+[2025-03-14T13:09:47.709+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:09:47.738+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.212 seconds
+[2025-03-14T13:10:18.401+0000] {processor.py:186} INFO - Started process (PID=172) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:10:18.403+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:10:18.404+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:10:18.404+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:10:24.457+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:10:24.446+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from dags.data_preprocessing import pre_processing
+ModuleNotFoundError: No module named 'dags'
+[2025-03-14T13:10:24.461+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:10:24.517+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 6.123 seconds
+[2025-03-14T13:10:54.803+0000] {processor.py:186} INFO - Started process (PID=184) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:10:54.806+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:10:54.809+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:10:54.808+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:10:58.493+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:10:58.489+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from dags.data_preprocessing import pre_processing
+ModuleNotFoundError: No module named 'dags'
+[2025-03-14T13:10:58.495+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:10:58.529+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.746 seconds
+[2025-03-14T13:11:28.920+0000] {processor.py:186} INFO - Started process (PID=196) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:11:28.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:11:28.927+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:11:28.926+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:11:34.708+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:11:34.701+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from dags.data_preprocessing import pre_processing
+ModuleNotFoundError: No module named 'dags'
+[2025-03-14T13:11:34.715+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:11:34.756+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 5.853 seconds
+[2025-03-14T13:12:05.074+0000] {processor.py:186} INFO - Started process (PID=208) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:12:05.076+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:12:05.078+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:12:05.078+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:12:09.234+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:12:09.223+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from dags.data_preprocessing import pre_processing
+ModuleNotFoundError: No module named 'dags'
+[2025-03-14T13:12:09.238+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:12:09.285+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 4.225 seconds
+[2025-03-14T13:12:39.665+0000] {processor.py:186} INFO - Started process (PID=220) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:12:39.667+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:12:39.669+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:12:39.669+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:12:42.740+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:12:42.734+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from dags.data_preprocessing import pre_processing
+ModuleNotFoundError: No module named 'dags'
+[2025-03-14T13:12:42.741+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:12:42.773+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.115 seconds
+[2025-03-14T13:13:13.102+0000] {processor.py:186} INFO - Started process (PID=232) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:13:13.105+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:13:13.106+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:13:13.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:13:16.572+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:13:16.565+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from dags.data_preprocessing import pre_processing
+ModuleNotFoundError: No module named 'dags'
+[2025-03-14T13:13:16.575+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:13:16.611+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.519 seconds
+[2025-03-14T13:13:46.052+0000] {processor.py:186} INFO - Started process (PID=244) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:13:46.055+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:13:46.060+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:13:46.059+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:13:50.844+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:13:50.830+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from airflodags.data_preprocessing import pre_processing
+ModuleNotFoundError: No module named 'airflodags'
+[2025-03-14T13:13:50.848+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:13:50.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 4.869 seconds
+[2025-03-14T13:14:21.330+0000] {processor.py:186} INFO - Started process (PID=256) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:14:21.332+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:14:21.333+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:14:21.333+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:14:24.218+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:14:24.208+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from airflodags.data_preprocessing import pre_processing
+ModuleNotFoundError: No module named 'airflodags'
+[2025-03-14T13:14:24.222+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:14:24.249+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 2.925 seconds
+[2025-03-14T13:14:54.591+0000] {processor.py:186} INFO - Started process (PID=268) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:14:54.593+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:14:54.596+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:14:54.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:14:58.071+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:14:58.065+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from airflodags.data_preprocessing import pre_processing
+ModuleNotFoundError: No module named 'airflodags'
+[2025-03-14T13:14:58.074+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:14:58.104+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.521 seconds
+[2025-03-14T13:15:28.531+0000] {processor.py:186} INFO - Started process (PID=280) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:15:28.539+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:15:28.542+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:15:28.541+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:15:32.116+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:15:32.110+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from airflodags.data_preprocessing import pre_processing
+ModuleNotFoundError: No module named 'airflodags'
+[2025-03-14T13:15:32.117+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:15:32.149+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.626 seconds
+[2025-03-14T13:16:02.630+0000] {processor.py:186} INFO - Started process (PID=292) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:16:02.631+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:16:02.633+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:16:02.633+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:16:07.307+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:16:07.296+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 9, in <module>
+    from airflodags.data_preprocessing import pre_processing
+ModuleNotFoundError: No module named 'airflodags'
+[2025-03-14T13:16:07.311+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:16:07.369+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 4.745 seconds
+[2025-03-14T13:16:20.181+0000] {processor.py:186} INFO - Started process (PID=304) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:16:20.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:16:20.184+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:16:20.184+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:16:25.862+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:16:25.861+0000] {font_manager.py:1639} INFO - generated new fontManager
+[2025-03-14T13:16:26.923+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:16:26.923+0000] {warnings.py:112} WARNING - /opt/airflow/dags/churn_prediction.py:15: SyntaxWarning: invalid escape sequence '\p'
+  df = pd.read_csv('data\preprocessed_data\cleaned_customer_churn.csv')
+[2025-03-14T13:16:27.811+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:16:27.734+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 87, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 77, in model_prediction
+    model_prediction()
+  File "/opt/airflow/dags/data_prep_transformation.py", line 77, in model_prediction
+    model_prediction()
+  File "/opt/airflow/dags/data_prep_transformation.py", line 77, in model_prediction
+    model_prediction()
+  [Previous line repeated 2952 more times]
+RecursionError: maximum recursion depth exceeded
+[2025-03-14T13:16:27.822+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:16:27.877+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 7.701 seconds
+[2025-03-14T13:16:42.535+0000] {processor.py:186} INFO - Started process (PID=318) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:16:42.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:16:42.539+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:16:42.538+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:16:48.166+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:16:48.165+0000] {warnings.py:112} WARNING - /opt/airflow/dags/churn_prediction.py:15: SyntaxWarning: invalid escape sequence '\p'
+  df = pd.read_csv('data\preprocessed_data\cleaned_customer_churn.csv')
+[2025-03-14T13:16:48.588+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:16:48.514+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 87, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 77, in model_prediction
+    model_prediction()
+  File "/opt/airflow/dags/data_prep_transformation.py", line 77, in model_prediction
+    model_prediction()
+  File "/opt/airflow/dags/data_prep_transformation.py", line 77, in model_prediction
+    model_prediction()
+  [Previous line repeated 2952 more times]
+RecursionError: maximum recursion depth exceeded
+[2025-03-14T13:16:48.599+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:16:48.654+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 6.126 seconds
+[2025-03-14T13:17:19.173+0000] {processor.py:186} INFO - Started process (PID=330) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:17:19.176+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:17:19.178+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:17:19.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:17:28.416+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:17:28.416+0000] {warnings.py:112} WARNING - /opt/airflow/dags/churn_prediction.py:15: SyntaxWarning: invalid escape sequence '\p'
+  df = pd.read_csv('data\preprocessed_data\cleaned_customer_churn.csv')
+[2025-03-14T13:17:28.833+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:17:28.754+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 87, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 77, in model_prediction
+    model_prediction()
+  File "/opt/airflow/dags/data_prep_transformation.py", line 77, in model_prediction
+    model_prediction()
+  File "/opt/airflow/dags/data_prep_transformation.py", line 77, in model_prediction
+    model_prediction()
+  [Previous line repeated 2952 more times]
+RecursionError: maximum recursion depth exceeded
+[2025-03-14T13:17:28.843+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:17:28.882+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 9.718 seconds
+[2025-03-14T13:17:37.634+0000] {processor.py:186} INFO - Started process (PID=340) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:17:37.637+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:17:37.641+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:17:37.640+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:17:41.704+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:17:41.694+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from opt.airflow.dags.data_preprocessing import pre_processing
+ModuleNotFoundError: No module named 'opt'
+[2025-03-14T13:17:41.707+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:17:41.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 4.131 seconds
+[2025-03-14T13:18:03.384+0000] {processor.py:186} INFO - Started process (PID=352) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:18:03.386+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:18:03.387+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:18:03.387+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:18:09.319+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:18:09.297+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:18:09.325+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:18:09.753+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 6.374 seconds
+[2025-03-14T13:18:39.959+0000] {processor.py:186} INFO - Started process (PID=364) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:18:39.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:18:39.963+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:18:39.962+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:18:44.335+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:18:44.326+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:18:44.338+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:18:44.393+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 4.439 seconds
+[2025-03-14T13:19:14.588+0000] {processor.py:186} INFO - Started process (PID=376) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:19:14.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:19:14.593+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:19:14.592+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:19:18.303+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:19:18.139+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:19:18.306+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:19:18.337+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.757 seconds
+[2025-03-14T13:19:48.630+0000] {processor.py:186} INFO - Started process (PID=388) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:19:48.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:19:48.635+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:19:48.634+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:19:51.385+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:19:51.376+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:19:51.389+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:19:51.431+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 2.806 seconds
+[2025-03-14T13:20:22.456+0000] {processor.py:186} INFO - Started process (PID=400) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:20:22.474+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:20:22.490+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:20:22.485+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:20:32.431+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:20:32.420+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:20:32.433+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:20:32.481+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 10.188 seconds
+[2025-03-14T13:21:03.242+0000] {processor.py:186} INFO - Started process (PID=412) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:21:03.254+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:21:03.260+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:21:03.258+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:21:11.162+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:21:11.150+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:21:11.166+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:21:11.228+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 8.013 seconds
+[2025-03-14T13:21:36.674+0000] {processor.py:186} INFO - Started process (PID=424) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:21:36.678+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:21:36.682+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:21:36.681+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:21:43.840+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:21:43.828+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:21:43.843+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:21:43.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 7.237 seconds
+[2025-03-14T13:22:14.343+0000] {processor.py:186} INFO - Started process (PID=436) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:22:14.349+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:22:14.353+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:22:14.352+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:22:19.510+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:22:19.500+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:22:19.515+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:22:19.567+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 5.265 seconds
+[2025-03-14T13:22:50.009+0000] {processor.py:186} INFO - Started process (PID=448) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:22:50.011+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:22:50.013+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:22:50.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:22:54.543+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:22:54.535+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:22:54.546+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:22:54.589+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 4.590 seconds
+[2025-03-14T13:23:24.969+0000] {processor.py:186} INFO - Started process (PID=460) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:23:24.970+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:23:24.971+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:23:24.971+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:23:28.906+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:23:28.900+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:23:28.908+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:23:28.949+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.986 seconds
+[2025-03-14T13:23:59.509+0000] {processor.py:186} INFO - Started process (PID=472) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:23:59.512+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:23:59.516+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:23:59.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:24:05.296+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:24:05.288+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:24:05.299+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:24:05.346+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 5.934 seconds
+[2025-03-14T13:24:35.857+0000] {processor.py:186} INFO - Started process (PID=484) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:24:35.861+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:24:35.865+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:24:35.864+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:24:42.202+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:24:42.021+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:24:42.205+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:24:42.271+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 6.434 seconds
+[2025-03-14T13:25:12.727+0000] {processor.py:186} INFO - Started process (PID=496) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:25:12.730+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:25:12.733+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:25:12.732+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:25:16.701+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:25:16.694+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 11, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:25:16.703+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:25:16.743+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 4.039 seconds
+[2025-03-14T13:25:28.252+0000] {processor.py:186} INFO - Started process (PID=508) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:25:28.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:25:28.264+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:25:28.263+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:25:33.764+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:25:33.758+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 13, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:25:33.767+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:25:33.804+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 5.562 seconds
+[2025-03-14T13:25:53.146+0000] {processor.py:186} INFO - Started process (PID=520) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:25:53.147+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:25:53.149+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:25:53.148+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:25:58.839+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:25:58.819+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 18, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:25:58.842+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:25:58.922+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 5.782 seconds
+[2025-03-14T13:26:19.058+0000] {processor.py:186} INFO - Started process (PID=530) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:26:19.060+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:26:19.062+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:26:19.061+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:26:24.369+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:26:24.361+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 18, in <module>
+    from .data_preprocessing import pre_processing
+ImportError: attempted relative import with no known parent package
+[2025-03-14T13:26:24.379+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/data_prep_transformation.py:157 SyntaxWarning: invalid escape sequence '\p'
+[2025-03-14T13:26:24.380+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:26:24.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 5.368 seconds
+[2025-03-14T13:26:32.074+0000] {processor.py:186} INFO - Started process (PID=542) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:26:32.079+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:26:32.082+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:26:32.081+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:26:38.141+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:26:38.141+0000] {warnings.py:112} WARNING - <unknown>:1: SyntaxWarning: invalid escape sequence '\p'
+[2025-03-14T13:26:38.143+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:26:38.098+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 157, in model_prediction
+    df = pd.read_csv('data\preprocessed_data\cleaned_customer_churn.csv')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data\\preprocessed_data\\cleaned_customer_churn.csv'
+[2025-03-14T13:26:38.152+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/data_prep_transformation.py:157 SyntaxWarning: invalid escape sequence '\p'
+[2025-03-14T13:26:38.153+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:26:38.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 6.482 seconds
+[2025-03-14T13:27:09.182+0000] {processor.py:186} INFO - Started process (PID=554) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:27:09.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:27:09.188+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:27:09.187+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:27:17.275+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:27:17.275+0000] {warnings.py:112} WARNING - <unknown>:1: SyntaxWarning: invalid escape sequence '\p'
+[2025-03-14T13:27:17.276+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:27:17.260+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 157, in model_prediction
+    df = pd.read_csv('data\preprocessed_data\cleaned_customer_churn.csv')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data\\preprocessed_data\\cleaned_customer_churn.csv'
+[2025-03-14T13:27:17.289+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/data_prep_transformation.py:157 SyntaxWarning: invalid escape sequence '\p'
+[2025-03-14T13:27:17.290+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:27:17.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 8.195 seconds
+[2025-03-14T13:27:47.696+0000] {processor.py:186} INFO - Started process (PID=566) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:27:47.702+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:27:47.705+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:27:47.704+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:27:55.481+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:27:55.481+0000] {warnings.py:112} WARNING - <unknown>:1: SyntaxWarning: invalid escape sequence '\p'
+[2025-03-14T13:27:55.482+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:27:55.443+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 157, in model_prediction
+    df = pd.read_csv('data\preprocessed_data\cleaned_customer_churn.csv')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'data\\preprocessed_data\\cleaned_customer_churn.csv'
+[2025-03-14T13:27:55.488+0000] {logging_mixin.py:190} WARNING - /opt/airflow/dags/data_prep_transformation.py:157 SyntaxWarning: invalid escape sequence '\p'
+[2025-03-14T13:27:55.489+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:27:55.534+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 7.844 seconds
+[2025-03-14T13:28:21.021+0000] {processor.py:186} INFO - Started process (PID=578) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:28:21.022+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:28:21.023+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:28:21.023+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:28:24.321+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:28:24.313+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 157, in model_prediction
+    df = pd.read_csv('/opt/data/cleaned_customer_churn.csv')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/data/cleaned_customer_churn.csv'
+[2025-03-14T13:28:24.322+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:28:24.355+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.339 seconds
+[2025-03-14T13:28:54.622+0000] {processor.py:186} INFO - Started process (PID=590) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:28:54.623+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:28:54.625+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:28:54.624+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:28:59.214+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:28:59.189+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 157, in model_prediction
+    df = pd.read_csv('/opt/data/cleaned_customer_churn.csv')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/data/cleaned_customer_churn.csv'
+[2025-03-14T13:28:59.215+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:28:59.268+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 4.653 seconds
+[2025-03-14T13:29:29.643+0000] {processor.py:186} INFO - Started process (PID=602) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:29:29.645+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:29:29.646+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:29:29.646+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:29:40.263+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:29:40.227+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+    data_validation()  >> data_pre_processing()
+                                                
+  File "/opt/airflow/dags/data_prep_transformation.py", line 157, in model_prediction
+    df = pd.read_csv('/opt/data/cleaned_customer_churn.csv')
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 948, in read_csv
+    return _read(filepath_or_buffer, kwds)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 611, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1448, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/parsers/readers.py", line 1705, in _make_engine
+    self.handles = get_handle(
+                   ^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/pandas/io/common.py", line 863, in get_handle
+    handle = open(
+             ^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/opt/data/cleaned_customer_churn.csv'
+[2025-03-14T13:29:40.265+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:29:40.319+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 10.685 seconds
+[2025-03-14T13:30:10.555+0000] {processor.py:186} INFO - Started process (PID=614) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:30:10.556+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:30:10.558+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:10.557+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:30:15.370+0000] {processor.py:925} INFO - DAG(s) 'data_prep_transformation_model_building' retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:30:15.859+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:15.857+0000] {override.py:1912} INFO - Created Permission View: can edit on DAG:data_prep_transformation_model_building
+[2025-03-14T13:30:15.920+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:15.919+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG:data_prep_transformation_model_building
+[2025-03-14T13:30:15.972+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:15.971+0000] {override.py:1912} INFO - Created Permission View: can read on DAG:data_prep_transformation_model_building
+[2025-03-14T13:30:16.049+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:16.049+0000] {override.py:1912} INFO - Created Permission View: can delete on DAG Run:data_prep_transformation_model_building
+[2025-03-14T13:30:16.102+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:16.101+0000] {override.py:1912} INFO - Created Permission View: menu access on DAG Run:data_prep_transformation_model_building
+[2025-03-14T13:30:16.161+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:16.158+0000] {override.py:1912} INFO - Created Permission View: can create on DAG Run:data_prep_transformation_model_building
+[2025-03-14T13:30:16.208+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:16.207+0000] {override.py:1912} INFO - Created Permission View: can read on DAG Run:data_prep_transformation_model_building
+[2025-03-14T13:30:16.210+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:16.209+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-14T13:30:16.255+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:16.253+0000] {dag.py:3262} INFO - Creating ORM DAG for data_prep_transformation_model_building
+[2025-03-14T13:30:16.257+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:16.257+0000] {dag.py:4180} INFO - Setting next_dagrun for data_prep_transformation_model_building to None, run_after=None
+[2025-03-14T13:30:16.414+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 5.864 seconds
+[2025-03-14T13:30:48.310+0000] {processor.py:186} INFO - Started process (PID=646) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:30:48.312+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:30:48.319+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:48.317+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:30:53.628+0000] {processor.py:925} INFO - DAG(s) 'data_prep_transformation_model_building' retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:30:53.658+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:53.657+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-14T13:30:53.676+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:30:53.676+0000] {dag.py:4180} INFO - Setting next_dagrun for data_prep_transformation_model_building to None, run_after=None
+[2025-03-14T13:30:53.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 5.459 seconds
+[2025-03-14T13:31:24.440+0000] {processor.py:186} INFO - Started process (PID=685) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:31:24.442+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:31:24.444+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:31:24.443+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:31:28.908+0000] {processor.py:925} INFO - DAG(s) 'data_prep_transformation_model_building' retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:31:28.939+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:31:28.939+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-14T13:31:28.956+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:31:28.956+0000] {dag.py:4180} INFO - Setting next_dagrun for data_prep_transformation_model_building to None, run_after=None
+[2025-03-14T13:31:29.030+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 4.595 seconds
+[2025-03-14T13:31:59.318+0000] {processor.py:186} INFO - Started process (PID=697) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:31:59.320+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:31:59.322+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:31:59.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:32:03.868+0000] {processor.py:925} INFO - DAG(s) 'data_prep_transformation_model_building' retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:32:03.909+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:32:03.909+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-14T13:32:03.930+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:32:03.930+0000] {dag.py:4180} INFO - Setting next_dagrun for data_prep_transformation_model_building to None, run_after=None
+[2025-03-14T13:32:04.032+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 4.724 seconds
+[2025-03-14T13:32:34.263+0000] {processor.py:186} INFO - Started process (PID=709) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:32:34.265+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:32:34.267+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:32:34.266+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:32:37.618+0000] {processor.py:925} INFO - DAG(s) 'data_prep_transformation_model_building' retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:32:37.640+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:32:37.640+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-14T13:32:37.659+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:32:37.659+0000] {dag.py:4180} INFO - Setting next_dagrun for data_prep_transformation_model_building to None, run_after=None
+[2025-03-14T13:32:37.729+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.471 seconds
+[2025-03-14T13:32:58.153+0000] {processor.py:186} INFO - Started process (PID=721) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:32:58.155+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:32:58.157+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:32:58.156+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:33:03.356+0000] {processor.py:925} INFO - DAG(s) 'data_prep_transformation_model_building' retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:33:03.395+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:33:03.394+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-14T13:33:03.421+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:33:03.420+0000] {dag.py:4180} INFO - Setting next_dagrun for data_prep_transformation_model_building to None, run_after=None
+[2025-03-14T13:33:03.490+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 5.347 seconds
+[2025-03-14T13:33:35.221+0000] {processor.py:186} INFO - Started process (PID=760) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:33:35.224+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:33:35.230+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:33:35.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:33:40.463+0000] {processor.py:925} INFO - DAG(s) 'data_prep_transformation_model_building' retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:33:40.548+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:33:40.547+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-14T13:33:40.568+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:33:40.567+0000] {dag.py:4180} INFO - Setting next_dagrun for data_prep_transformation_model_building to None, run_after=None
+[2025-03-14T13:33:40.714+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 5.518 seconds
+[2025-03-14T13:33:58.150+0000] {processor.py:186} INFO - Started process (PID=772) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:33:58.157+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:33:58.164+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:33:58.161+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:34:04.442+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:34:04.429+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 176, in model_prediction
+    rf_model.fit(X_train, y_train)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 419, in fit
+    y, expanded_class_weight = self._validate_y_class_weight(y)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 831, in _validate_y_class_weight
+    check_classification_targets(y)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/multiclass.py", line 222, in check_classification_targets
+    raise ValueError(
+ValueError: Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+[2025-03-14T13:34:04.444+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:34:04.493+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 6.389 seconds
+[2025-03-14T13:34:35.222+0000] {processor.py:186} INFO - Started process (PID=784) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:34:35.225+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:34:35.228+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:34:35.228+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:34:41.550+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:34:41.540+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 176, in model_prediction
+    rf_model.fit(X_train, y_train)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 419, in fit
+    y, expanded_class_weight = self._validate_y_class_weight(y)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 831, in _validate_y_class_weight
+    check_classification_targets(y)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/multiclass.py", line 222, in check_classification_targets
+    raise ValueError(
+ValueError: Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+[2025-03-14T13:34:41.551+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:34:41.600+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 6.384 seconds
+[2025-03-14T13:35:11.958+0000] {processor.py:186} INFO - Started process (PID=796) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:35:11.961+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:35:11.962+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:35:11.962+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:35:16.697+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:35:16.688+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 176, in model_prediction
+    rf_model.fit(X_train, y_train)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 419, in fit
+    y, expanded_class_weight = self._validate_y_class_weight(y)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 831, in _validate_y_class_weight
+    check_classification_targets(y)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/multiclass.py", line 222, in check_classification_targets
+    raise ValueError(
+ValueError: Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+[2025-03-14T13:35:16.699+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:35:16.740+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 4.787 seconds
+[2025-03-14T13:35:46.942+0000] {processor.py:186} INFO - Started process (PID=808) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:35:46.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:35:46.945+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:35:46.945+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:35:50.435+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:35:50.429+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 176, in model_prediction
+    rf_model.fit(X_train, y_train)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 419, in fit
+    y, expanded_class_weight = self._validate_y_class_weight(y)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 831, in _validate_y_class_weight
+    check_classification_targets(y)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/multiclass.py", line 222, in check_classification_targets
+    raise ValueError(
+ValueError: Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+[2025-03-14T13:35:50.436+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:35:50.463+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.527 seconds
+[2025-03-14T13:36:20.846+0000] {processor.py:186} INFO - Started process (PID=820) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:36:20.847+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:36:20.848+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:36:20.848+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:36:24.291+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:36:24.283+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 176, in model_prediction
+    rf_model.fit(X_train, y_train)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 419, in fit
+    y, expanded_class_weight = self._validate_y_class_weight(y)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 831, in _validate_y_class_weight
+    check_classification_targets(y)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/multiclass.py", line 222, in check_classification_targets
+    raise ValueError(
+ValueError: Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+[2025-03-14T13:36:24.292+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:36:24.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 3.481 seconds
+[2025-03-14T13:36:54.731+0000] {processor.py:186} INFO - Started process (PID=832) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:36:54.734+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:36:54.737+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:36:54.736+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:37:01.251+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:37:01.241+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 176, in model_prediction
+    rf_model.fit(X_train, y_train)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 419, in fit
+    y, expanded_class_weight = self._validate_y_class_weight(y)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 831, in _validate_y_class_weight
+    check_classification_targets(y)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/multiclass.py", line 222, in check_classification_targets
+    raise ValueError(
+ValueError: Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+[2025-03-14T13:37:01.253+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:37:01.304+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 6.591 seconds
+[2025-03-14T13:37:31.581+0000] {processor.py:186} INFO - Started process (PID=844) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:37:31.583+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:37:31.584+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:37:31.584+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:37:37.007+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:37:37.001+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+    data_validation()  >> data_pre_processing() >> model_prediction()
+                                                   ^^^^^^^^^^^^^^^^^^
+  File "/opt/airflow/dags/data_prep_transformation.py", line 176, in model_prediction
+    rf_model.fit(X_train, y_train)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 419, in fit
+    y, expanded_class_weight = self._validate_y_class_weight(y)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 831, in _validate_y_class_weight
+    check_classification_targets(y)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/multiclass.py", line 222, in check_classification_targets
+    raise ValueError(
+ValueError: Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+[2025-03-14T13:37:37.008+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:37:37.042+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 5.470 seconds
+[2025-03-14T13:38:07.378+0000] {processor.py:186} INFO - Started process (PID=856) to work on /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:38:07.379+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation.py for tasks to queue
+[2025-03-14T13:38:07.380+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:38:07.380+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:38:14.440+0000] {logging_mixin.py:190} INFO - [2025-03-14T13:38:14.419+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/data_prep_transformation.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/data_prep_transformation.py", line 264, in <module>
+  File "/opt/airflow/dags/data_prep_transformation.py", line 176, in model_prediction
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/base.py", line 1389, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 419, in fit
+    y, expanded_class_weight = self._validate_y_class_weight(y)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/ensemble/_forest.py", line 831, in _validate_y_class_weight
+    check_classification_targets(y)
+  File "/home/airflow/.local/lib/python3.12/site-packages/sklearn/utils/multiclass.py", line 222, in check_classification_targets
+    raise ValueError(
+ValueError: Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+[2025-03-14T13:38:14.443+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/data_prep_transformation.py
+[2025-03-14T13:38:14.519+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation.py took 7.147 seconds

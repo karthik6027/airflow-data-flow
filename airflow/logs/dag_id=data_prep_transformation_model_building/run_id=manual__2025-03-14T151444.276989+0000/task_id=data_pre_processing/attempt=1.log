@@ -1,0 +1,148 @@
+[2025-03-14T15:15:25.435+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-03-14T15:15:25.466+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: data_prep_transformation_model_building.data_pre_processing manual__2025-03-14T15:14:44.276989+00:00 [queued]>
+[2025-03-14T15:15:25.489+0000] {taskinstance.py:2614} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: data_prep_transformation_model_building.data_pre_processing manual__2025-03-14T15:14:44.276989+00:00 [queued]>
+[2025-03-14T15:15:25.489+0000] {taskinstance.py:2867} INFO - Starting attempt 1 of 1
+[2025-03-14T15:15:25.539+0000] {taskinstance.py:2890} INFO - Executing <Task(_PythonDecoratedOperator): data_pre_processing> on 2025-03-14 15:14:44.276989+00:00
+[2025-03-14T15:15:25.717+0000] {standard_task_runner.py:104} INFO - Running: ['airflow', 'tasks', 'run', 'data_prep_transformation_model_building', 'data_pre_processing', 'manual__2025-03-14T15:14:44.276989+00:00', '--job-id', '250', '--raw', '--subdir', 'DAGS_FOLDER/data_prep_transformation_model_building.py', '--cfg-path', '/tmp/tmpgleb7ey3']
+[2025-03-14T15:15:25.746+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py:70 DeprecationWarning: This process (pid=1275) is multi-threaded, use of fork() may lead to deadlocks in the child.
+[2025-03-14T15:15:25.747+0000] {standard_task_runner.py:105} INFO - Job 250: Subtask data_pre_processing
+[2025-03-14T15:15:25.748+0000] {standard_task_runner.py:72} INFO - Started process 1293 to run task
+[2025-03-14T15:15:26.377+0000] {task_command.py:467} INFO - Running <TaskInstance: data_prep_transformation_model_building.data_pre_processing manual__2025-03-14T15:14:44.276989+00:00 [running]> on host 0bbddc3bb474
+[2025-03-14T15:15:26.883+0000] {taskinstance.py:3134} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='data_prep_transformation_model_building' AIRFLOW_CTX_TASK_ID='data_pre_processing' AIRFLOW_CTX_EXECUTION_DATE='2025-03-14T15:14:44.276989+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-03-14T15:14:44.276989+00:00'
+[2025-03-14T15:15:26.887+0000] {taskinstance.py:732} INFO - ::endgroup::
+[2025-03-14T15:15:27.107+0000] {logging_mixin.py:190} INFO - Initial Data Snapshot:
+[2025-03-14T15:15:27.196+0000] {logging_mixin.py:190} INFO -    Unnamed: 0  customerID  gender  ...  MonthlyCharges TotalCharges Churn
+0           0  7590-VHVEG  Female  ...           29.85        29.85    No
+1           1  5575-GNVDE    Male  ...           56.95       1889.5    No
+2           2  3668-QPYBK    Male  ...           53.85       108.15   Yes
+3           3  7795-CFOCW    Male  ...           42.30      1840.75    No
+4           4  9237-HQITU  Female  ...           70.70       151.65   Yes
+
+[5 rows x 22 columns]
+[2025-03-14T15:15:27.198+0000] {logging_mixin.py:190} INFO - 
+Data Information:
+[2025-03-14T15:15:27.241+0000] {logging_mixin.py:190} INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7043 entries, 0 to 7042
+Data columns (total 22 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   Unnamed: 0        7043 non-null   int64  
+ 1   customerID        7043 non-null   object 
+ 2   gender            7043 non-null   object 
+ 3   SeniorCitizen     7043 non-null   int64  
+ 4   Partner           7043 non-null   object 
+ 5   Dependents        7043 non-null   object 
+ 6   tenure            7043 non-null   int64  
+ 7   PhoneService      7043 non-null   object 
+ 8   MultipleLines     7043 non-null   object 
+ 9   InternetService   7043 non-null   object 
+ 10  OnlineSecurity    7043 non-null   object 
+ 11  OnlineBackup      7043 non-null   object 
+ 12  DeviceProtection  7043 non-null   object 
+ 13  TechSupport       7043 non-null   object 
+ 14  StreamingTV       7043 non-null   object 
+ 15  StreamingMovies   7043 non-null   object 
+ 16  Contract          7043 non-null   object 
+ 17  PaperlessBilling  7043 non-null   object 
+ 18  PaymentMethod     7043 non-null   object 
+ 19  MonthlyCharges    7043 non-null   float64
+ 20  TotalCharges      7043 non-null   object 
+ 21  Churn             7043 non-null   object 
+dtypes: float64(1), int64(3), object(18)
+memory usage: 1.2+ MB
+[2025-03-14T15:15:27.243+0000] {logging_mixin.py:190} INFO - None
+[2025-03-14T15:15:27.272+0000] {logging_mixin.py:190} INFO - 
+Missing values per column:
+[2025-03-14T15:15:27.282+0000] {logging_mixin.py:190} INFO - Unnamed: 0          0
+customerID          0
+gender              0
+SeniorCitizen       0
+Partner             0
+Dependents          0
+tenure              0
+PhoneService        0
+MultipleLines       0
+InternetService     0
+OnlineSecurity      0
+OnlineBackup        0
+DeviceProtection    0
+TechSupport         0
+StreamingTV         0
+StreamingMovies     0
+Contract            0
+PaperlessBilling    0
+PaymentMethod       0
+MonthlyCharges      0
+TotalCharges        0
+Churn               0
+dtype: int64
+[2025-03-14T15:15:27.720+0000] {category.py:224} INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[2025-03-14T15:15:27.774+0000] {category.py:224} INFO - Using categorical units to plot a list of strings that are all parsable as floats or dates. If these strings should be plotted as numbers, cast to the appropriate data type before plotting.
+[2025-03-14T15:15:34.738+0000] {logging_mixin.py:190} INFO - i am here
+[2025-03-14T15:15:34.754+0000] {logging_mixin.py:190} INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7043 entries, 0 to 7042
+Data columns (total 22 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   Unnamed: 0        7043 non-null   float64
+ 1   customerID        7043 non-null   float64
+ 2   gender            7043 non-null   float64
+ 3   SeniorCitizen     7043 non-null   float64
+ 4   Partner           7043 non-null   float64
+ 5   Dependents        7043 non-null   float64
+ 6   tenure            7043 non-null   float64
+ 7   PhoneService      7043 non-null   float64
+ 8   MultipleLines     7043 non-null   float64
+ 9   InternetService   7043 non-null   float64
+ 10  OnlineSecurity    7043 non-null   float64
+ 11  OnlineBackup      7043 non-null   float64
+ 12  DeviceProtection  7043 non-null   float64
+ 13  TechSupport       7043 non-null   float64
+ 14  StreamingTV       7043 non-null   float64
+ 15  StreamingMovies   7043 non-null   float64
+ 16  Contract          7043 non-null   float64
+ 17  PaperlessBilling  7043 non-null   float64
+ 18  PaymentMethod     7043 non-null   float64
+ 19  MonthlyCharges    7043 non-null   float64
+ 20  TotalCharges      7043 non-null   float64
+ 21  Churn             7043 non-null   float64
+dtypes: float64(22)
+memory usage: 1.2 MB
+[2025-03-14T15:15:34.755+0000] {logging_mixin.py:190} INFO - None
+[2025-03-14T15:15:34.766+0000] {logging_mixin.py:190} INFO - <class 'pandas.core.frame.DataFrame'>
+RangeIndex: 7043 entries, 0 to 7042
+Data columns (total 22 columns):
+ #   Column            Non-Null Count  Dtype  
+---  ------            --------------  -----  
+ 0   Unnamed: 0        7043 non-null   float64
+ 1   customerID        7043 non-null   float64
+ 2   gender            7043 non-null   float64
+ 3   SeniorCitizen     7043 non-null   float64
+ 4   Partner           7043 non-null   float64
+ 5   Dependents        7043 non-null   float64
+ 6   tenure            7043 non-null   float64
+ 7   PhoneService      7043 non-null   float64
+ 8   MultipleLines     7043 non-null   float64
+ 9   InternetService   7043 non-null   float64
+ 10  OnlineSecurity    7043 non-null   float64
+ 11  OnlineBackup      7043 non-null   float64
+ 12  DeviceProtection  7043 non-null   float64
+ 13  TechSupport       7043 non-null   float64
+ 14  StreamingTV       7043 non-null   float64
+ 15  StreamingMovies   7043 non-null   float64
+ 16  Contract          7043 non-null   float64
+ 17  PaperlessBilling  7043 non-null   float64
+ 18  PaymentMethod     7043 non-null   float64
+ 19  MonthlyCharges    7043 non-null   float64
+ 20  TotalCharges      7043 non-null   float64
+ 21  Churn             7043 non-null   float64
+dtypes: float64(22)
+memory usage: 1.2 MB
+[2025-03-14T15:15:34.768+0000] {logging_mixin.py:190} INFO - None
+[2025-03-14T15:15:34.769+0000] {logging_mixin.py:190} INFO - Data preprocessing completed and saved to 'cleaned_customer_churn.csv'
+[2025-03-14T15:15:34.770+0000] {python.py:240} INFO - Done. Returned value was: Data preprocessing completed and saved to 'cleaned_customer_churn.csv'
+[2025-03-14T15:15:34.872+0000] {taskinstance.py:341} INFO - ::group::Post task execution logs
+[2025-03-14T15:15:34.873+0000] {taskinstance.py:353} INFO - Marking task as SUCCESS. dag_id=data_prep_transformation_model_building, task_id=data_pre_processing, run_id=manual__2025-03-14T15:14:44.276989+00:00, execution_date=20250314T151444, start_date=20250314T151525, end_date=20250314T151534
+[2025-03-14T15:15:35.061+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-03-14T15:15:35.198+0000] {taskinstance.py:3901} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-03-14T15:15:35.229+0000] {local_task_job_runner.py:245} INFO - ::endgroup::
