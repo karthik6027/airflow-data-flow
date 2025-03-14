@@ -1888,3 +1888,10 @@ AttributeError: 'NoneType' object has no attribute 'update_relative'
 [2025-03-14T15:26:28.954+0000] {logging_mixin.py:190} INFO - [2025-03-14T15:26:28.953+0000] {dag.py:3239} INFO - Sync 1 DAGs
 [2025-03-14T15:26:28.987+0000] {logging_mixin.py:190} INFO - [2025-03-14T15:26:28.987+0000] {dag.py:4180} INFO - Setting next_dagrun for data_prep_transformation_model_building to None, run_after=None
 [2025-03-14T15:26:29.146+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation_model_building.py took 8.041 seconds
+[2025-03-14T15:26:59.797+0000] {processor.py:186} INFO - Started process (PID=1610) to work on /opt/airflow/dags/data_prep_transformation_model_building.py
+[2025-03-14T15:26:59.799+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/data_prep_transformation_model_building.py for tasks to queue
+[2025-03-14T15:26:59.801+0000] {logging_mixin.py:190} INFO - [2025-03-14T15:26:59.800+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/data_prep_transformation_model_building.py
+[2025-03-14T15:27:04.328+0000] {processor.py:925} INFO - DAG(s) 'data_prep_transformation_model_building' retrieved from /opt/airflow/dags/data_prep_transformation_model_building.py
+[2025-03-14T15:27:04.369+0000] {logging_mixin.py:190} INFO - [2025-03-14T15:27:04.369+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-03-14T15:27:04.391+0000] {logging_mixin.py:190} INFO - [2025-03-14T15:27:04.391+0000] {dag.py:4180} INFO - Setting next_dagrun for data_prep_transformation_model_building to None, run_after=None
+[2025-03-14T15:27:04.474+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/data_prep_transformation_model_building.py took 4.695 seconds
